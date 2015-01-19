@@ -1,0 +1,15 @@
+LOG_COLOR=False
+SCREEN_LOGDIR=/opt/stack/logs
+API_RATE_LIMIT=False
+DATABASE_PASSWORD=open
+RABBIT_PASSWORD=open
+SERVICE_TOKEN=open
+SERVICE_PASSWORD=open
+ADMIN_PASSWORD=open
+disable_service n-net
+enable_service q-svc
+enable_service q-agt
+enable_service q-dhcp
+enable_service q-l3
+enable_service q-meta
+
